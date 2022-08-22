@@ -1,0 +1,168 @@
+header{
+    background-color: rgba(184, 135, 11, 0.753);
+    text-align: center;
+    padding: 20px;
+}
+section{
+    width: 33%;
+    float: left;
+    text-align: center;
+    border-style: groove;
+    height: 500px;
+    overflow: auto;
+    
+}
+
+h2{
+    text-align: center;
+    font-family: monospace;
+}
+article{
+    overflow: auto;
+}
+footer{
+    background-color: rgba(184, 135, 11, 0.753);
+    text-align: center;
+    padding: 40px;
+    clear: both;
+    border-radius: 10px;
+
+}
+
+img{
+    transition: all 0.4s linear;
+}
+
+img:hover{
+    transform: scale(0.9);
+}
+
+.iconoHora{
+    color: rgba(202, 108, 19, 0.753);
+    text-align: center;
+} 
+
+.iconoLenguaje{
+    color: rgba(202, 108, 19, 0.753);
+    text-align: center;
+} 
+.iconoCosto{
+    color: rgba(202, 108, 19, 0.753);
+} 
+
+
+.Menu{
+    width: 125%;
+    text-align: left  ;
+}
+/* *{
+    box-sizing: border-box;
+    margin: 0%;
+} */
+
+.MenuHorizontal a{
+    background-color: black;
+    color: aliceblue;
+    text-decoration: underline;
+    float: left;
+    width: 0px;
+    height: 0px;
+    text-align: center;
+    padding: 1% 10% 2% 10%;
+
+}
+
+.MenuHorizontal a:hover{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+.contenedorFull{
+    width: 100%;
+    max-width: 1500px;
+    max-height: 1500px;
+    margin: auto;
+    text-align: center;
+
+
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.container2{
+    width: 100%;
+    display: flex;
+
+    justify-content: space-between;
+    padding: 0px;
+    text-align: center;
+}
+
+.columna1{
+    max-width: 400px;
+    text-align: center;
+}
+
+.columna1 h1{
+    font-size: 22px;
+}
+
+.columna1 p{
+    margin-top: 20px;
+    margin-right: 50;
+}
+
+.columna2{
+    max-width: 400px;
+    text-align: center;
+}
+
+.columna2 h1{
+    font-size: 22px;
+}
+
+.columna2 p{
+    margin-top: 20px;
+    margin-right: 50;
+}
+.columna3{
+    max-width: 400px;
+    text-align: center;
+}
+
+.columna3 h1{
+    font-size: 22px;
+}
+
+.columna3 p{
+    margin-top: 20px;
+    margin-right: 50;
+}
+.RedesSociales{
+    margin-top: 20px;
+    display: flex;
+}
+
+.RedesSociales img{
+    width: 35px;
+    height: 35px;
+}
+.RedesSociales label{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.Contactos{
+    margin-top: 20px;
+    
+} 
+.Contactos img{
+    width: 35px;
+    height: 35px;
+}
+.Contactos label{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+

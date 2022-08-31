@@ -170,8 +170,15 @@ ul {
     background: #1d2124;
 }
 
-.footer .menu a {
-    display: block;
-    margin-bottom: 10px;
-    text-decoration: none;
+.grid-container{
+    display: grid;
+    grid-template-columns: auto;
+
+}
+.grid-container div{
+    background-color: black;
+    text-align: center;
+    color: white;
+    border: 1px solid grey;
+
 }

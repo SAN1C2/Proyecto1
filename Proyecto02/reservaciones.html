@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/reservaciones_estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>Reservacion y Contacto - Restaurante</title>
+</head>
+<body>
+    <header class="container-fluid bg-dark d-flex justify-content-center">
+        <p class="text-light mb-0 p-2 fs-6">Contacta con nosotros 084-999999</p>
+    </header>
+    <main>
+
+        <!-- Menú de encabezado -->
+        <div>
+            <nav class="navbar navbar-dark navbar-expand-lg p-1" id="menu">
+                <div class="container-fluid">
+                  <a class="navbar-brand fs-3 p-5 pt-2 pb-2" href="#">Restaurante</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Reservacion y contacto</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                      <button class="btn btn-warning btn-outline-light-dark" type="submit">Buscar</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </div>
+
+        <!-- Datos de Reserva -->
+        <section class="bg-all mx-auto text-left p-5 pt-4 pb-3">
+          <h1 class="fs-1">Hacer una reservación</h1>
+        </section>
+        
+        <section class="bg-all pt-2 p-5 pb-2" id="flex">
+          <form class="container row g-3 needs-validation" novalidate>
+            <div class="row">
+              <label for="basic-url" class="fs-5 form-label">Datos personales</label>
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="inputGroupPrepend">Nombres</span>
+                <input type="text" class="form-control" aria-label="Nombres" id="validationCustomUsername" aria-describedby="invalid-feedback">
+              </div>
+              
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Apellidos</span>
+                <input type="text" class="form-control" aria-label="Apellidos" aria-describedby="basic-addon1">
+              </div>
+    
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Motivo</span>
+                <input type="text" class="form-control" aria-label="Correo" placeholder="Trabajo, Compromiso, etc." aria-describedby="basic-addon2">
+              </div>
+  
+              <div class="input-group mb-5">
+                <span class="input-group-text" id="basic-addon1">Personas</span>
+                <input type="text" class="form-control" aria-label="Telefono" placeholder="1 persona, 2 personas, etc." aria-describedby="basic-addon2">
+              </div>
+            </div>
+  
+            <div class="row">
+              <label for="basic-url" class="fs-5 form-label">Fecha y Hora</label>
+            
+              <div class="input-group mb-3">
+                <span class="input-group-text">Fecha</span>
+                <input type="text" class="form-control" placeholder="dd/mm" aria-label="Username">
+                <span class="input-group-text">Hora</span>
+                <input type="text" class="form-control" placeholder="00:00" aria-label="Server">
+              </div>
+              
+              <label for="basic-url" class="fs-5 form-label">Tabla de horarios</label>
+              <div class="mb-3">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col"></th>
+                      <th class="table-warning" scope="col">Hora normal</th>
+                      <th class="table-warning" scope="col">Feriados</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th class="table-warning" scope="row">Lun a Vie</th>
+                      <td>09:00 - 20:00</td>
+                      <td>09:00 - 15:00</td>
+                    </tr>
+                    <tr>
+                      <th class="table-warning" scope="row">Sábados</th>
+                      <td>09:00 - 18:00</td>
+                      <td>09:00 - 15:00</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </form>
+        </section>
+
+        <!-- Botón de envío -->
+        <section class="bg-all">
+          <div class="container pt-1 pb-4">
+            <button class="btn btn-warning btn-outline-light-dark" type="submit">Aceptar y Enviar</button>
+          </div>
+        </section>
+
+        <!-- Datos de Contacto -->
+        <section class="bg-all mx-auto p-5 pt-1 pb-3">
+          <h1 class="fs-1">Permítenos contactarte</h1>
+        </section>
+
+        <section class="bg-all mx-auto p-5 pt-1 pb-3" id="flex">
+          <div class="container">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="fs-5 form-label">E-mail:</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="fs-5 form-label">Celular:</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="fs-5 form-label">Nombres:</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="fs-5 form-label">Preguntas/Comentarios:</label>
+              <textarea class="form-control fs-6" id="exampleFormControlTextarea1" rows="4"></textarea>
+            </div>
+
+          </div>
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    </main>
+    <footer class="w-100 d-flex align-items-center justify-content-center flex-wrap">
+      <p class="fs-5 px-3 pt-3">Restaurante. &copy; Todos Los Derechos Reservados 2022</p>
+      <div id="iconos">
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-twitter"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+      </div>
+    </footer>
+</body>
+</html>

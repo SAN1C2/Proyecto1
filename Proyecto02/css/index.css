@@ -1,0 +1,10 @@
+.carousel-inner img{
+    max-height: 750px;
+    max-width: 100%;
+    align-content: center;
+}
+
+.carousel-inner{
+ height: 100%;
+}
+

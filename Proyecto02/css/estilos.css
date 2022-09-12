@@ -1,3 +1,16 @@
+/* INDEX */
+
+.carousel-inner img{
+    max-height: 750px;
+    max-width: 100%;
+    align-content: center;
+}
+
+.carousel-inner{
+ height: 100%;
+}
+
+/* ALMUERZO Y CENA */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
     background-color: gainsboro
@@ -33,4 +46,41 @@ body{
 .descuento {
     text-decoration-line: line-through;
   text-decoration-color: black;
+}
+
+/* RESERVACIONES NOSOTROS*/
+#menu {
+    background: #ff8800;
+}
+
+#flex {
+    column-count: 2;
+    column-gap: 3rem;
+    column-rule: 1px solid #bbb;
+    column-width: 350px;
+    column-fill: auto;
+}
+
+.bg-all {
+    background-color: #ff880070;
+}
+
+footer {
+    background: #ff8800;
+    min-height: 100px;
+}
+
+footer p {
+    color: #f3f3f3;
+    text-align: center;
+}
+
+#iconos i {
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3;
+}
+
+.container {
+    height: auto;
 }

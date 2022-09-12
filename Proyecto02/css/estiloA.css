@@ -1,0 +1,28 @@
+body{
+    background-color: gainsboro
+}
+.ti {
+    color: white;
+    background-image: url(../img/fondo.jpg);
+    height: 400px;
+    text-align: center;
+}
+.separador {
+    color: black;
+    text-align: center;
+}
+.caja1 {
+    background-color: whitesmoke;
+}
+.caja2 {
+    background-color: whitesmoke;
+    text-align: center;
+}
+.caja3 {
+    background-color: whitesmoke;
+    text-align: justify;
+}
+.caja4 {
+    background-color: darkgrey;
+    text-align: justify;
+}

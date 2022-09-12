@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
     background-color: gainsboro
 }
@@ -17,6 +18,8 @@ body{
 .caja2 {
     background-color: whitesmoke;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px; 
 }
 .caja3 {
     background-color: whitesmoke;
@@ -25,4 +28,8 @@ body{
 .caja4 {
     background-color: darkgrey;
     text-align: justify;
+}
+.descuento {
+    text-decoration-line: line-through;
+  text-decoration-color: black;
 }
